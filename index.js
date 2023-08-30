@@ -23,7 +23,7 @@ apps.get('/', (req, res) => {
     token: tokens
   });
 })
-apps.post('/api/download.xcoders', async (req, res) => {
+apps.post('/api/download.rokumo', async (req, res) => {
   try {
     const { url, token } = req.body;
     if (token !== tokens) return res.json({ status: false, type: 'token', message: 'error token, please reload browser.' });
