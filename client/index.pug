@@ -3,7 +3,7 @@ html(lang='en', data-bs-theme='dark')
   head
     meta(charset='utf-8')
     meta(name='viewport', content='width=device-width, initial-scale=1')
-    title Tiktok Downloader | xcoders
+    title Tiktok Downloader | rokumo
     script(async='', src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1628794693885407', crossorigin='anonymous')
     link(rel='stylesheet', href='style.css', type='text/css', media='all')
     link(href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css', rel='stylesheet', integrity='sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD', crossorigin='anonymous')
@@ -16,7 +16,7 @@ html(lang='en', data-bs-theme='dark')
     .container
       .image.text-center.mt-3
         img.logo(src='logo.png')
-      form.url-content.mt-3(method='POST', action='/api/download.xcoders')
+      form.url-content.mt-3(method='POST', action='/api/download.rokumo')
         .input-group.mb-3
           input.form-control(type='url', placeholder='input URL', name='url', aria-label='input URL', aria-describedby='button-addon2')
           input(type='hidden', name='token', value=token, aria-describedby='button-addon2')
@@ -37,7 +37,7 @@ html(lang='en', data-bs-theme='dark')
     footer.text-center.text-light.bg-dark
       span.fw-bold
         | &copy; 2023 | 
-        span.text-danger xcoders
+        span.text-danger rokumo
     script(src='https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.min.js')
     script(src='script.js')
     script(src='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js', integrity='sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN', crossorigin='anonymous')
